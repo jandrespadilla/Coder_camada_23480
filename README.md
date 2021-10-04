@@ -1,4 +1,9 @@
 # dw_clase_0
+
+Drive con las clases
+
+https://drive.google.com/drive/u/0/folders/1NprUUi95YEIR3FTlYG8JRuXBCbG7FUqy
+
 Desarrollo Web Clase 0
 
 Notacion: Enviar trabajos y desafios comprimidos..
