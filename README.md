@@ -7,7 +7,11 @@ Algunos programas para mokap
 
 
 Figma [https://www.figma.com/] 
+
 Adobe XD [https://www.adobe.com/la/products/xd.html]
+
 Balsamiq [https://balsamiq.com/]
+
 Wireframe [https://wireframe.cc/]
+
 Whimsical [https://whimsical.com/wireframes]
