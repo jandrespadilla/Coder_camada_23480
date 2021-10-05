@@ -20,3 +20,14 @@ Balsamiq [https://balsamiq.com/]
 Wireframe [https://wireframe.cc/]
 
 Whimsical [https://whimsical.com/wireframes]
+
+# Clase 1
+
+
+DESAFÍO - EXPIRA EL MIÉRCOLES 13/10/2021 23:59HS
+Desafío: Prototipado Wireframe
+  
+
+
+DESAFÍO - EXPIRA EL MIÉRCOLES 13/10/2021 23:59HS
+Desafío: Esqueleto HTML
