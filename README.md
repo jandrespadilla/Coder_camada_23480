@@ -8,6 +8,9 @@ Desarrollo Web Clase 0
 
 Notacion: Enviar trabajos y desafios comprimidos..
 
+Desafios y recomendaciones
+https://pretty-pearl-da3.notion.site/Lista-de-desafios-del-curso-de-DW-de-Coderhouse-f2c9e73b66954fa89f5adf817b4126ac
+
 Algunos programas para mokap
 
 
