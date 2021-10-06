@@ -11,6 +11,11 @@ Notacion: Enviar trabajos y desafios comprimidos..
 Desafios y recomendaciones
 https://pretty-pearl-da3.notion.site/Lista-de-desafios-del-curso-de-DW-de-Coderhouse-f2c9e73b66954fa89f5adf817b4126ac
 
+Sistema para ejecutar sistemas win32 en linux
+
+https://www.playonlinux.com/es/download.html
+
+
 Algunos programas para mokap
 
 
