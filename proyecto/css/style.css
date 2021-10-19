@@ -2,27 +2,32 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 }
+
 .menu {
     list-style: none; 
-    color:rgb(94, 255, 0);}
+    }
 .menu .itemMenu .itemMenuLink{
-    color:rgb(43, 226, 125);
+    font-family: 'Roboto Condensed', sans-serif;
+
+    color:rgb(43, 61, 61);
     text-decoration: none;
 }
 
 .subMenu {
     list-style: none; 
-    color:rgb(94, 255, 0);
+    
     margin-left: 10px;
 }
 .subMenu .itemSubMenu .itemSubMenuLink{
-    color:rgb(43, 226, 125);
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(143, 156, 149);
     text-decoration: none;
 }
 .menuBotton {
     list-style: none; 
-    color:rgb(94, 255, 0);
 
 }
 .menuBotton .itemMenuBotton .itemMenuLinkBotton{
