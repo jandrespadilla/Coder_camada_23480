@@ -5,10 +5,25 @@
     color:rgb(43, 226, 125);
     text-decoration: none;
 }
+
+.subMenu {
+    list-style: none; 
+    color:rgb(94, 255, 0);}
+.subMenu .itemSubMenu .itemSubMenuLink{
+    color:rgb(43, 226, 125);
+    text-decoration: none;
+}
 .menuBotton {
     list-style: none; 
     color:rgb(94, 255, 0);}
 .menuBotton .itemMenuBotton .itemMenuLinkBotton{
     color:rgb(43, 226, 125);
     text-decoration: none;
+}
+
+.tituloPagina{
+    color:grey;
+}
+.subTituloPagina{
+    color:rgb(88, 56, 56);
 }

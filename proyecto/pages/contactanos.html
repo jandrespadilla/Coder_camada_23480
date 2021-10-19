@@ -15,10 +15,10 @@
                 <li class="itemMenu"><a class="itemMenuLink" href="./noticias.html">Noticias</a></li>
                 <li class="itemMenu"><a class="itemMenuLink" href="./disenos.html">Diseños</a></li>
                 <li class="itemMenu"><a class="itemMenuLink" href="./productos.html">Productos</a>
-                    <ul>
-                        <li><a class="itemMenuLink" href="./productos/deco.html">Deco</a></li>
-                        <li><a class="itemMenuLink" href="./productos/sustentable.html">Sustentable</a></li>
-                        <li><a class="itemMenuLink" href="./productos/gourmet.html">Gourmet</a></li>
+                    <ul class="subMenu">
+                        <li  class="itemSubMenu"><a class="itemSubMenuLink" href="./productos/deco.html">Deco</a></li>
+                        <li  class="itemSubMenu"><a class="itemSubMenuLink" href="./productos/sustentable.html">Sustentable</a></li>
+                        <li  class="itemSubMenu"><a class="itemSubMenuLink" href="./productos/gourmet.html">Gourmet</a></li>
                     </ul>
                 </li>
                 <li class="itemMenu"><a class="itemMenuLink" href="./contactanos.html">Contactanos</a></li>
@@ -27,8 +27,8 @@
         </nav>
     </header>
     <main>
-        <h1>Contactanos</h1>
-        <form action="mailero" method="post">
+        <h1 class="tituloPagina">Contactanos</h1>
+        <form action="mailero-completo" method="post">
             <div>
                 <label for="mail-id">Mail</label>
                 <input type="text" name="mail-name" id="mail-id" placeholder="Escribi tu email">
@@ -40,6 +40,28 @@
             <div>
                 <label for="mensaje-id">Mensaje</label>
                 <textarea name="mensaje-name" id="mensaje-id" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="suscripcion-id">Quisero suscribirme</label>
+                <div>
+                    <input type="radio" id="suscripcion-basica-id" name="suscripcion" value="basica"
+                           checked>
+                    <label for="suscripcion-basica-id">Basica</label>
+                  </div>
+                  
+                  <div>
+                    <input type="radio" id="suscripcion-media-id" name="suscripcion" value="media">
+                    <label for="suscripcion-media-id">Media</label>
+                  </div>
+                  
+                  <div>
+                    <input type="radio" id="suscripcion-completa-id" name="suscripcion" value="completa">
+                    <label for="uscripcion-completa-id">Completa</label>
+                  </div>
+            </div>
+            <div>
+                <label for="noticias-id">Quiero recibir noticias</label>
+                <input type="checkbox" name="noticias-name" id="noticias-id" >
             </div>
             <div>
                 <input type="submit" value="Enviar" name="enviar-id" id="enviar-id">
