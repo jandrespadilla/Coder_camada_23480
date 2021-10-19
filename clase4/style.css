@@ -1,26 +1,13 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+.classColor{
+    color: #0033ff;;
 }
-header nav ul a li{
-    color:greenyellow;
-}
-main h1 {
-    color: khaki;
-}
-main h2{
-    color: lightcoral;
-}
-
-main ol li {
-    color: lightsalmon;
-}
-
-main table{
-    border-bottom-left-radius: 15%;
-}
-.menu {color:aqua;}
-.menu .item-menu a{color:blueviolet;}
-.styleNormal{font-style: normal;}
-.styleOblic{font-style: oblique;}
+.clasTextBig {
+    font-size: 12px;
+ }
+ .classSpacing {
+    letter-spacing: 1px;
+ }
+ .classInterLineado {
+    line-height: 15px;
+ }
+ 
