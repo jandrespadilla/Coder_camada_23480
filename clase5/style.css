@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+   position: sticky;
+   top: 0px;
+   z-index: 5;
+   background-color: blanchedalmond;
+}
+.menu {
+    list-style: none; 
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    }
+.menu .itemMenu{
+   display: inline-block;
+   position: relative;
+  
+}  
+.menu .itemMenu:hover .subMenu{
+   display: block;
+  
+}  
+.menu .itemMenuBuscador{
+   float:right;
+
+}    
+.menu .itemMenu .itemMenuLink{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 1%;
+    padding: 1%;
+    color:rgb(43, 61, 61);
+    text-decoration: none;
+}
+
+.subMenu {
+    list-style: none; 
+    background-color:rgb(58, 82, 82); 
+    position: absolute;
+    top: 20px;
+    display:none;
+}
+.subMenu .itemSubMenu{
+   display: block;
+   
+}
+.subMenu .itemSubMenu .itemSubMenuLink{
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(143, 156, 149);
+    text-decoration: none;
+    margin: 1%;
+   padding: 1%;
+}
+.menuBotton {
+    list-style: none; 
+
+}
+.menuBotton .itemMenuBotton .itemMenuLinkBotton{
+    color:rgb(43, 226, 125);
+    text-decoration: none;
+}
+
+.tituloPagina{
+    color:grey;
+}
+.subTituloPagina{
+    color:rgb(88, 56, 56);
+}
+
+.mainCentrado{
+    box-align:center;
+    align-content: center;
+    text-align: center;
+}
+
+.divProducto {
+   border-top:solid 5px red;	border-right:solid 10px cyan;
+   border-bottom:solid 7px green;
+   border-left:solid 12px yellow;
+   }
+   
+.footer{
+   clear: both;
+}
