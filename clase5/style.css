@@ -59,11 +59,15 @@ header{
 }
 .menuBotton {
     list-style: none; 
-
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
 }
 .menuBotton .itemMenuBotton .itemMenuLinkBotton{
-    color:rgb(43, 226, 125);
+    color:rgb(53, 85, 67);
     text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;    
 }
 
 .tituloPagina{
@@ -79,11 +83,7 @@ header{
     text-align: center;
 }
 
-.divProducto {
-   border-top:solid 5px red;	border-right:solid 10px cyan;
-   border-bottom:solid 7px green;
-   border-left:solid 12px yellow;
-   }
+
    
 .footer{
    clear: both;
