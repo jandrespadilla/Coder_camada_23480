@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    height: 40px;
+    background-color: rgb(235, 204, 159);
+ }
+.menu {
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+.menu .itemMenu{
+        display: inline-block;
+        position: relative;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+
+.menu .itemMenu:hover .subMenu{
+        display: block;
+
+}
+.menu .itemMenuBuscador{
+        float:right;
+        margin-right: 2%;
+}
+
+.menu .itemMenu .itemMenuLink{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 1%;
+    padding: 50%;
+    color:rgb(43, 61, 61);
+    text-decoration: none;
+  
+}
+
+.subMenu {
+    list-style: none;
+    background-color:rgb(58, 82, 82);
+    position: absolute;
+    top: 20px;
+    display:none;
+    padding-left: 50%;
+    padding-right: 50%;
+    text-align: center;
+}
+.subMenu .itemSubMenu{
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+ }
+.subMenu .itemSubMenu .itemSubMenuLink{
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(143, 156, 149);
+    text-decoration: none;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.logo{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+.divProductos{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.divProductos .divDetallesProductos {
+    width: 33%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.divProductos .divDetallesProductos .imagenesProductos{
+    width: 100%;
+    
+    text-align: center;
+}
+
+
+
+.menuBotton {
+    list-style: none;
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+}
+.menuBotton .itemMenuBotton{
+    display: inline-block;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.menuBotton .itemMenuBotton .itemMenuLinkBotton{
+    color:rgb(88, 56, 56);
+    text-decoration: none;
+    list-style: none;
+    padding-left: 50%;
+    padding-right: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tituloPagina{
+    color:grey;
+    margin-bottom: 5%;
+    font-size:xxx-large;
+    
+}
+.subTituloPagina{
+    text-align: center;
+    color:rgb(88, 56, 56);
+    font-size:xx-large;  
+}
+
+.mainCentrado{
+    box-align:center;
+    align-content: center;
+    text-align: center;
+}
+.espaciado{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+.pDescriptivo{
+    padding-left: 50px;
+    padding-right: 50px; 
+    font-size:x-large;   
+}
+ .footer{
+    clear: both;
+    box-align:center;
+    align-content: center;
+    text-align: center;
+ }
