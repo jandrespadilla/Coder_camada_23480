@@ -4,63 +4,66 @@ Clase de flex box muy interesante
 Codigo utilizado para el index_profe
 ```css
 .encabezado{
-background-color:chocolate;
-height: 100px;
+    background-color:chocolate;
+    height: 100px;
 }
 .contenedorPrincipal{
-      
-display: flex;
-/* flex-direction: row;
-flex-wrap: wrap; */
-flex-flow: row wrap;
-justify-content:space-evenly;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+   /*   flex-flow: row wrap;
+    justify-content:space-evenly;*/
+    /* align-content: space-evenly; */
 }
 
 .caja{
     width: 300px;
     height: 120px;
+   /*  margin: 2px; */
 }
 
 .contenedor1{
     background-color: aqua;
-
+    /* flex-basis: 100px; */
+    /* font-size: 20px; */
 }
 
 .contenedor2{
-
+    /* height: 250px; */
     background-color:blue;
 }
 
 .contenedor3{
-
+    /* font-size: 50px; */
     background-color:chartreuse
 ;}
 
 .contenedor4{
-
+    /* font-size: 100px; */
     background-color:cornflowerblue;
 }
 
 .contenedor5{
-
+     
     background-color:crimson;
 }
 
 .contenedor6{
-
+    
     background-color:darkgoldenrod;
 }
 
 .contenedor7{
     background-color:darkolivegreen;
-
+   
 }
 .contenedor8{
     background-color:darkviolet;
 
 }
 .contenedor9{
-
+    
     background-color:deeppink;
 }
 .contenedor10{
@@ -71,6 +74,6 @@ justify-content:space-evenly;
 
 .footer{
     background-color: aqua;
-
+    height: 100px;
 }
 ´´´

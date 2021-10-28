@@ -1,0 +1,76 @@
+header nav ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 10%;
+}
+main {
+    display: grid;
+    grid-template-areas: 
+    'section1 section1 aside'
+    'article1 article2 aside'
+    'article1 article2 section2';
+    grid-template-columns: 5fr 4fr 3fr;
+    grid-template-rows: 100px 500px 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: stretch;
+    align-items:stretch;
+    /* width: 1500px;
+    justify-content: end; */
+    /* height: 2500px;
+    align-content: center; */
+}
+
+.section1{
+    background-color: aqua;
+    grid-area: section1;
+    justify-self: stretch;
+}
+
+.section2{
+    background-color:blueviolet;
+    grid-area: section2;
+    justify-self: end;
+}
+
+.article1{
+    background-color:brown;
+    grid-area: article1;
+    justify-self: center;
+    align-self: start;
+}
+
+.article2{
+    background-color:coral;
+    grid-area: article2;
+}
+
+.aside{
+    background-color:darkblue;
+    grid-area: aside;
+}
+footer{
+    display: grid;
+    grid-template-columns:2fr 2fr 4fr 2fr 2fr;
+}
+footer div{
+    margin: 10%;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .body {
+            background-color: #000000;
+      }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+    .body {
+            background-color:darkgoldenrod;
+      }
+}
+
+@media only screen and (max-width: 320px) {
+    .body {
+            background-color:darkgreen;
+      }
+}
