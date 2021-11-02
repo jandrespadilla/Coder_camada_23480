@@ -1,0 +1,140 @@
+header {
+    background-image: linear-gradient(to left, brown , yellow,blueviolet);
+
+}
+header nav ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 10%;
+    height: 100px;
+   
+}
+header nav ul li a:hover{
+    transition: font-size 0.1s;
+
+}
+
+header nav ul li a:hover{
+    font-size: 30px;
+    background-color: violet;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+    'section1 section1 aside'
+    'article1 article2 aside'
+    'article1 article2 section2';
+    grid-template-columns: 5fr 4fr 3fr;
+    grid-template-rows: 100px 400px 200px;
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+    justify-items: stretch;
+    align-items:stretch;
+    /* width: 1500px;
+    justify-content: end; */
+    /* height: 2500px;
+    align-content: center; */
+}
+
+.section1{
+    
+    background-image: radial-gradient(brown , yellow,blueviolet);
+
+    grid-area: section1;
+     
+}
+
+.section2{
+    background-color:blueviolet;
+    grid-area: section2;
+    justify-self: end;
+}
+
+.article1{
+    background-color:brown;
+    grid-area: article1;
+    align-content: center;
+    justify-self:auto;
+}
+
+.article1 .contenido1{
+    margin: 100px;
+    width: 20%;
+    height: 20%;
+    background-color: yellow;
+    transform:  translate(20px,50px);
+}
+
+.article1 .contenido1:hover{
+    transform: scale(2,1.5);
+}
+
+.article1 .contenido2{
+    margin: 100px;
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    transform: translate(20px,50px);
+ 
+}
+
+
+.article1 .contenido2:hover{
+   
+  transform: skew(20deg,10deg);
+
+}
+
+.article1 .contenido3{
+    margin: 100px;
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    transform: rotate(30deg);
+ 
+}
+
+.article2{
+    background-color:coral;
+    grid-area: article2;
+}
+.article2 p:hover{
+    transform: scale(2,1.5);
+}
+.aside{
+    background-color:darkblue;
+    grid-area: aside;
+}
+footer{
+    display: grid;
+    grid-template-columns:2fr 2fr 4fr 2fr 2fr;
+}
+footer div{
+    margin: 10%;
+    background-color:white;
+}
+footer div:hover{
+    transform: skew(20deg,10deg);
+}
+
+footer div h2:hover{
+    transform: skew(-20deg,-10deg);
+}
+
+@media only screen and (min-width: 768px) {
+    .body {
+            background-color: #000000;
+      }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+    .body {
+            background-color:darkgoldenrod;
+      }
+}
+
+@media only screen and (max-width: 320px) {
+    .body {
+            background-color:darkgreen;
+      }
+}
